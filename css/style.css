@@ -19,13 +19,13 @@
 }
 
 .page-content {
-  color: white;
+  color: rgb(16 13 13);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
 
 .page-content-answer {
-  color: rgb(0 0 0);
+  color: rgb(0deg 0deg 0deg);
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.25rem;
 }
@@ -38,5 +38,5 @@ img {
 }
 
 body {
-  background-color: rgb(243, 188, 254);
+  background-color: rgb(188 253 254);
 }
