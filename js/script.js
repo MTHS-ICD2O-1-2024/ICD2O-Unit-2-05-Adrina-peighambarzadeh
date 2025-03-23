@@ -11,14 +11,12 @@ function calculateTakeHomePay() {
   const hoursWorked = parseFloat(document.getElementById('hours-worked').value);
   const hourlyWage = parseFloat(document.getElementById('hourly-wage').value);
   
-  
   // process
-  const grossPay = hoursWorked * hourlyWgae;
+  const grossPay = hoursWorked * hourlyWage;
   const taxAmount = grossPay * 0.18;
   const takeHomeSalary = grossPay - taxAmount;
   
   // output
-  document.getElementById('pay').innerHTML = `Your pay will be: $ ${takeHomeSalary.toFixed(2)}`
-document.getElementById('pay').innerHTML = 'Your pay will be: $' + takeHomeSalary.toFixed(2)
+  document.getElementById('TakeHomePay').innerHTML = `Your pay will be: $${takeHomeSalary.toFixed(2)}`;
+  document.getElementById('TakeHomePay').innerHTML += `<br>The government will take: $${taxAmount.toFixed(2)}`;
 }
-
